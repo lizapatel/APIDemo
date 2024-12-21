@@ -1,0 +1,5 @@
+Createddatetime,UpdatedDatetime - Application time or servertime or client machine time
+
+Remove LEFT JOINS
+LEFT JOIN tbl_users cu ON cu.c_userid = u.c_createdby
+LEFT JOIN tbl_users uu ON uu.c_userid = u.c_updatedby
